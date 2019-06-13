@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Animation-Test</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <div class="hover-image" id="demo" onclick="ImageClick()">
+      <img src="images/cycling.jpg">
+      <div class="overlay"></div>
+      <div class="overlay-two"></div>
+      <div class="square"></div>
+      <span class="one">1</span>   
+      <span class="two">2</span> 
+      <span class="three">3</span>  
+      <span class="ring-one"></span> 
+      <span class="ring-two"></span> 
+      <span class="ring-three"></span>   
+   </div>
+
+   <div  id="open-modal" onclick="ModalClick()">
+   </div>
+
+   <div id="open-pop-up">
+         <div class="slideshow-container">
+                 <span class="close" onclick="Close()"></span>
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/animation-1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+             <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/animation-2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+             </div>
+             <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/animation-3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+             </div>
+             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+             <a class="next" onclick="plusSlides(1)">&#10095;</a>            
+         </div>
+   </div>
+</div>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
+
